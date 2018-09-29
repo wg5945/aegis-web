@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "allowJs": true,
+    "jsx": "preserve",
+    "module": "commonjs",
+    "removeComments": true,
+    "strict": true,
+    "sourceMap": true,
+    "target": "es2015",
+    "lib": [
+      "esnext",
+      "dom",
+      "es2017",
+      "dom.iterable",
+      "scripthost"
+    ]
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "test/**/*.ts",
+    "test/**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
+

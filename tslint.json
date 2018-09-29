@@ -1,0 +1,57 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:recommended"
+  ],
+  "rules": {
+    "quotemark": {
+      "options": [
+        "single"
+      ]
+    },
+    "indent": true,
+    "max-line-length": {
+      "options": 120
+    },
+    "no-console": [
+      true,
+      "log",
+      "warn",
+      "error"
+    ],
+    "no-string-literal": false,
+    "interface-name": {
+      "options": [
+        "never-prefix"
+      ]
+    },
+    "no-bitwise": false,
+    "no-object-literal-type-assertion": false,
+    "no-unused-expression": true,
+    "no-default-export": false,
+    "no-empty-interface": false,
+    "interface-over-type-literal": false,
+    "arrow-parens": true,
+    "object-literal-sort-keys": true,
+    "object-literal-key-quotes": false,
+    "trailing-comma": false,
+    "ordered-imports": true,
+    "radix": false,
+    "no-conditional-assignment": false,
+    "no-consecutive-blank-lines": [
+      false
+    ],
+    "no-shadowed-variable": true,
+    "jsdoc-format": true,
+    "only-arrow-functions": {
+      "options": [
+        "allow-named-functions"
+      ]
+    },
+    "no-var-requires": true,
+    "no-reference": false,
+    "no-namespace": false,
+    "newline-before-return": false
+  }
+}
+
