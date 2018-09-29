@@ -63,7 +63,7 @@
     "type": "git",
     "url": "git+https://github.com/wg5945/aegis-web.git"
   },
-  "license": "MTI",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/wg5945/aegis-web/issues"
   },
