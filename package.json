@@ -2,7 +2,8 @@
   "name": "aegis-web",
   "version": "0.0.5",
   "description": "擎盾前端工具",
-  "author": "wuhao",
+  "author": "wg <247026287@qq.com>",
+  "private": false,
   "main": "dist/index.js",
   "files": [
     "dist",
