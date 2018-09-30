@@ -13,9 +13,6 @@
   "scripts": {
     "build": "node node_modules/rollup/bin/rollup -c"
   },
-  "publishConfig": {
-    "registry": "http://nexus.aegis-info.com/repository/npm-aegis/"
-  },
   "typings": "types/index.d.ts",
   "dependencies": {
     "@types/js-beautify": "0.0.31",
